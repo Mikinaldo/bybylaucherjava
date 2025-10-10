@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172253094D80ECB3A5470C7B /* Pods_bybylaucherjava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB464C90C17CDAE712C1E93F /* Pods_bybylaucherjava.framework */; };
+		2026488B2E37A0F900B9E39F /* bybylaucherjavaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026488A2E37A0F900B9E39F /* bybylaucherjavaApp.swift */; };
+		2026488F2E37A0FB00B9E39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2026488E2E37A0FB00B9E39F /* Assets.xcassets */; };
+		202648922E37A0FB00B9E39F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202648912E37A0FB00B9E39F /* Preview Assets.xcassets */; };
+		2026489C2E37A0FB00B9E39F /* bybylaucherjavaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026489B2E37A0FB00B9E39F /* bybylaucherjavaTests.swift */; };
+		202648A62E37A0FB00B9E39F /* bybylaucherjavaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202648A52E37A0FB00B9E39F /* bybylaucherjavaUITests.swift */; };
+		202648A82E37A0FB00B9E39F /* bybylaucherjavaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202648A72E37A0FB00B9E39F /* bybylaucherjavaUITestsLaunchTests.swift */; };
+		202648B62E37A2F500B9E39F /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202648B52E37A2F500B9E39F /* AuthenticationServices.framework */; };
+		202648B82E37A30300B9E39F /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202648B72E37A30300B9E39F /* UniformTypeIdentifiers.framework */; };
+		2227B0B02E6C59000040260C /* libjvm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227B0AF2E6C59000040260C /* libjvm.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202648982E37A0FB00B9E39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2026487F2E37A0F900B9E39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202648862E37A0F900B9E39F;
+			remoteInfo = bybylaucherjava;
+		};
+		202648A22E37A0FB00B9E39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2026487F2E37A0F900B9E39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202648862E37A0F900B9E39F;
+			remoteInfo = bybylaucherjava;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201D7AE82E386EE700800520 /* bybylaucherjava.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bybylaucherjava.entitlements; sourceTree = "<group>"; };
+		202648872E37A0F900B9E39F /* bybylaucherjava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bybylaucherjava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026488A2E37A0F900B9E39F /* bybylaucherjavaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bybylaucherjavaApp.swift; sourceTree = "<group>"; };
+		2026488E2E37A0FB00B9E39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202648912E37A0FB00B9E39F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		202648972E37A0FB00B9E39F /* bybylaucherjavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bybylaucherjavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026489B2E37A0FB00B9E39F /* bybylaucherjavaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bybylaucherjavaTests.swift; sourceTree = "<group>"; };
+		202648A12E37A0FB00B9E39F /* bybylaucherjavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bybylaucherjavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202648A52E37A0FB00B9E39F /* bybylaucherjavaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bybylaucherjavaUITests.swift; sourceTree = "<group>"; };
+		202648A72E37A0FB00B9E39F /* bybylaucherjavaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bybylaucherjavaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		202648B52E37A2F500B9E39F /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		202648B72E37A30300B9E39F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		2227B0AF2E6C59000040260C /* libjvm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libjvm.dylib; sourceTree = "<group>"; };
+		5D927DC0313378DA0EA96447 /* Pods-bybylaucherjava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bybylaucherjava.debug.xcconfig"; path = "Target Support Files/Pods-bybylaucherjava/Pods-bybylaucherjava.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB13A6A192CC148B83803C0 /* Pods-bybylaucherjava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bybylaucherjava.release.xcconfig"; path = "Target Support Files/Pods-bybylaucherjava/Pods-bybylaucherjava.release.xcconfig"; sourceTree = "<group>"; };
+		EB464C90C17CDAE712C1E93F /* Pods_bybylaucherjava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bybylaucherjava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202648842E37A0F900B9E39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202648B82E37A30300B9E39F /* UniformTypeIdentifiers.framework in Frameworks */,
+				202648B62E37A2F500B9E39F /* AuthenticationServices.framework in Frameworks */,
+				2227B0B02E6C59000040260C /* libjvm.dylib in Frameworks */,
+				172253094D80ECB3A5470C7B /* Pods_bybylaucherjava.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202648942E37A0FB00B9E39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026489E2E37A0FB00B9E39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2026487E2E37A0F900B9E39F = {
+			isa = PBXGroup;
+			children = (
+				202648892E37A0F900B9E39F /* bybylaucherjava */,
+				2026489A2E37A0FB00B9E39F /* bybylaucherjavaTests */,
+				202648A42E37A0FB00B9E39F /* bybylaucherjavaUITests */,
+				202648882E37A0F900B9E39F /* Products */,
+				202648B42E37A2F500B9E39F /* Frameworks */,
+				90643BD9A106610450CCF771 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		202648882E37A0F900B9E39F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202648872E37A0F900B9E39F /* bybylaucherjava.app */,
+				202648972E37A0FB00B9E39F /* bybylaucherjavaTests.xctest */,
+				202648A12E37A0FB00B9E39F /* bybylaucherjavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202648892E37A0F900B9E39F /* bybylaucherjava */ = {
+			isa = PBXGroup;
+			children = (
+				201D7AE82E386EE700800520 /* bybylaucherjava.entitlements */,
+				2026488A2E37A0F900B9E39F /* bybylaucherjavaApp.swift */,
+				2227B0AF2E6C59000040260C /* libjvm.dylib */,
+				2026488E2E37A0FB00B9E39F /* Assets.xcassets */,
+				202648902E37A0FB00B9E39F /* Preview Content */,
+			);
+			path = bybylaucherjava;
+			sourceTree = "<group>";
+		};
+		202648902E37A0FB00B9E39F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				202648912E37A0FB00B9E39F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2026489A2E37A0FB00B9E39F /* bybylaucherjavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2026489B2E37A0FB00B9E39F /* bybylaucherjavaTests.swift */,
+			);
+			path = bybylaucherjavaTests;
+			sourceTree = "<group>";
+		};
+		202648A42E37A0FB00B9E39F /* bybylaucherjavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				202648A52E37A0FB00B9E39F /* bybylaucherjavaUITests.swift */,
+				202648A72E37A0FB00B9E39F /* bybylaucherjavaUITestsLaunchTests.swift */,
+			);
+			path = bybylaucherjavaUITests;
+			sourceTree = "<group>";
+		};
+		202648B42E37A2F500B9E39F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202648B72E37A30300B9E39F /* UniformTypeIdentifiers.framework */,
+				202648B52E37A2F500B9E39F /* AuthenticationServices.framework */,
+				EB464C90C17CDAE712C1E93F /* Pods_bybylaucherjava.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90643BD9A106610450CCF771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D927DC0313378DA0EA96447 /* Pods-bybylaucherjava.debug.xcconfig */,
+				8BB13A6A192CC148B83803C0 /* Pods-bybylaucherjava.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202648862E37A0F900B9E39F /* bybylaucherjava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202648AB2E37A0FB00B9E39F /* Build configuration list for PBXNativeTarget "bybylaucherjava" */;
+			buildPhases = (
+				1C8F8931E5F26196FC2070DF /* [CP] Check Pods Manifest.lock */,
+				202648832E37A0F900B9E39F /* Sources */,
+				202648842E37A0F900B9E39F /* Frameworks */,
+				202648852E37A0F900B9E39F /* Resources */,
+				7BC884CE351C3AF56EE51804 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bybylaucherjava;
+			productName = bybylaucherjava;
+			productReference = 202648872E37A0F900B9E39F /* bybylaucherjava.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202648962E37A0FB00B9E39F /* bybylaucherjavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202648AE2E37A0FB00B9E39F /* Build configuration list for PBXNativeTarget "bybylaucherjavaTests" */;
+			buildPhases = (
+				202648932E37A0FB00B9E39F /* Sources */,
+				202648942E37A0FB00B9E39F /* Frameworks */,
+				202648952E37A0FB00B9E39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202648992E37A0FB00B9E39F /* PBXTargetDependency */,
+			);
+			name = bybylaucherjavaTests;
+			productName = bybylaucherjavaTests;
+			productReference = 202648972E37A0FB00B9E39F /* bybylaucherjavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		202648A02E37A0FB00B9E39F /* bybylaucherjavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202648B12E37A0FB00B9E39F /* Build configuration list for PBXNativeTarget "bybylaucherjavaUITests" */;
+			buildPhases = (
+				2026489D2E37A0FB00B9E39F /* Sources */,
+				2026489E2E37A0FB00B9E39F /* Frameworks */,
+				2026489F2E37A0FB00B9E39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202648A32E37A0FB00B9E39F /* PBXTargetDependency */,
+			);
+			name = bybylaucherjavaUITests;
+			productName = bybylaucherjavaUITests;
+			productReference = 202648A12E37A0FB00B9E39F /* bybylaucherjavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2026487F2E37A0F900B9E39F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					202648862E37A0F900B9E39F = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					202648962E37A0FB00B9E39F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 202648862E37A0F900B9E39F;
+					};
+					202648A02E37A0FB00B9E39F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 202648862E37A0F900B9E39F;
+					};
+				};
+			};
+			buildConfigurationList = 202648822E37A0F900B9E39F /* Build configuration list for PBXProject "bybylaucherjava" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2026487E2E37A0F900B9E39F;
+			productRefGroup = 202648882E37A0F900B9E39F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202648862E37A0F900B9E39F /* bybylaucherjava */,
+				202648962E37A0FB00B9E39F /* bybylaucherjavaTests */,
+				202648A02E37A0FB00B9E39F /* bybylaucherjavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202648852E37A0F900B9E39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202648922E37A0FB00B9E39F /* Preview Assets.xcassets in Resources */,
+				2026488F2E37A0FB00B9E39F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202648952E37A0FB00B9E39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026489F2E37A0FB00B9E39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C8F8931E5F26196FC2070DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bybylaucherjava-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC884CE351C3AF56EE51804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bybylaucherjava/Pods-bybylaucherjava-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bybylaucherjava/Pods-bybylaucherjava-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bybylaucherjava/Pods-bybylaucherjava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202648832E37A0F900B9E39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026488B2E37A0F900B9E39F /* bybylaucherjavaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202648932E37A0FB00B9E39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026489C2E37A0FB00B9E39F /* bybylaucherjavaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026489D2E37A0FB00B9E39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202648A62E37A0FB00B9E39F /* bybylaucherjavaUITests.swift in Sources */,
+				202648A82E37A0FB00B9E39F /* bybylaucherjavaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202648992E37A0FB00B9E39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202648862E37A0F900B9E39F /* bybylaucherjava */;
+			targetProxy = 202648982E37A0FB00B9E39F /* PBXContainerItemProxy */;
+		};
+		202648A32E37A0FB00B9E39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202648862E37A0F900B9E39F /* bybylaucherjava */;
+			targetProxy = 202648A22E37A0FB00B9E39F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		202648A92E37A0FB00B9E39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		202648AA2E37A0FB00B9E39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202648AC2E37A0FB00B9E39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D927DC0313378DA0EA96447 /* Pods-bybylaucherjava.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = bybylaucherjava/bybylaucherjava.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bybylaucherjava/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation/ZIPFoundation.framework/Headers\"",
+				);
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"$(PROJECT_DIR)/bybylaucherjava",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ZIPFoundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybycompany.bybylaucherjava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bybylaucherjava/bybylaucherjava-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		202648AD2E37A0FB00B9E39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB13A6A192CC148B83803C0 /* Pods-bybylaucherjava.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = bybylaucherjava/bybylaucherjava.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bybylaucherjava/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation/ZIPFoundation.framework/Headers\"",
+				);
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"$(PROJECT_DIR)/bybylaucherjava",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ZIPFoundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybycompany.bybylaucherjava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bybylaucherjava/bybylaucherjava-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		202648AF2E37A0FB00B9E39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybycompany.bybylaucherjavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bybylaucherjava.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bybylaucherjava";
+			};
+			name = Debug;
+		};
+		202648B02E37A0FB00B9E39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybycompany.bybylaucherjavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bybylaucherjava.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bybylaucherjava";
+			};
+			name = Release;
+		};
+		202648B22E37A0FB00B9E39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybycompany.bybylaucherjavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bybylaucherjava;
+			};
+			name = Debug;
+		};
+		202648B32E37A0FB00B9E39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybycompany.bybylaucherjavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bybylaucherjava;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202648822E37A0F900B9E39F /* Build configuration list for PBXProject "bybylaucherjava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202648A92E37A0FB00B9E39F /* Debug */,
+				202648AA2E37A0FB00B9E39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		202648AB2E37A0FB00B9E39F /* Build configuration list for PBXNativeTarget "bybylaucherjava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202648AC2E37A0FB00B9E39F /* Debug */,
+				202648AD2E37A0FB00B9E39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		202648AE2E37A0FB00B9E39F /* Build configuration list for PBXNativeTarget "bybylaucherjavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202648AF2E37A0FB00B9E39F /* Debug */,
+				202648B02E37A0FB00B9E39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		202648B12E37A0FB00B9E39F /* Build configuration list for PBXNativeTarget "bybylaucherjavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202648B22E37A0FB00B9E39F /* Debug */,
+				202648B32E37A0FB00B9E39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2026487F2E37A0F900B9E39F /* Project object */;
+}
